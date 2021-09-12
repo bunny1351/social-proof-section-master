@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    background: url("./images/bg-pattern-top-mobile.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    margin: 5vh 3.75vw;
+  }
+  body h1 {
+    margin-top: 15vh;
+    color: #502050;
+    font-weight: 700;
+    margin-bottom: 6vh;
+  }
+  body #intro {
+    margin-bottom: 6vh;
+    color: #937b92;
+    font-weight: 500;
+  }
+  body .rated {
+    background-color: #f7f2f7;
+    border-radius: 2vw;
+    margin-bottom: 3vh;
+    padding: 3vh;
+  }
+  body .rated .stars {
+    margin-bottom: 2vh;
+  }
+  body .rated h4 {
+    color: #502050;
+    font-weight: 700;
+  }
+  body .card {
+    margin-bottom: 4vh;
+    border-radius: 2vw;
+    background: #502050;
+    color: white;
+    padding: 5vh;
+  }
+  body .card .identity {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 3vh;
+  }
+  body .card .identity img {
+    border-radius: 10vh;
+    height: 10vh;
+  }
+  body .card .identity .data {
+    margin-top: 2vh;
+    margin-left: 5vw;
+  }
+  body .card .identity .data h4 {
+    margin-bottom: 1vh;
+    font-weight: 700;
+  }
+  body .card .identity .data span {
+    color: #ee68a4;
+    font-weight: 500;
+  }
+  body .card p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: url("./images/bg-pattern-top-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    margin: 5vh 3.75vw;
+  }
+  body h1 {
+    margin-top: 15vh;
+    color: #502050;
+    font-weight: 700;
+    margin-bottom: 3vh;
+    font-size: 5vh;
+    width: 30vw;
+    text-align: left;
+  }
+  body #intro {
+    margin-bottom: 6vh;
+    color: #937b92;
+    font-weight: 500;
+    width: 30vw;
+    text-align: left;
+    font-size: 2vh;
+  }
+  body .rated {
+    background-color: #f7f2f7;
+    border-radius: 1vw;
+    margin-bottom: 3vh;
+    padding: 3vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+  }
+  body .rated .stars {
+    margin-right: 2vh;
+  }
+  body .rated h4 {
+    color: #502050;
+    font-weight: 700;
+  }
+  body .info {
+    display: flex;
+    flex-direction: row;
+  }
+  body .info .card {
+    margin-bottom: 4vh;
+    border-radius: 1vw;
+    background: #502050;
+    color: white;
+    padding: 2.5vh;
+    width: 30vw;
+    margin-right: 5vw;
+  }
+  body .info .card .identity {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 2vh;
+  }
+  body .info .card .identity img {
+    border-radius: 5vh;
+    height: 7vh;
+  }
+  body .info .card .identity .data {
+    margin-top: 2vh;
+    margin-left: 2vw;
+  }
+  body .info .card .identity .data h4 {
+    margin-bottom: 1vh;
+    font-weight: 700;
+  }
+  body .info .card .identity .data span {
+    color: #ee68a4;
+    font-weight: 500;
+  }
+  body .info .card p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .card:nth-child(1) {
+    position: absolute;
+    top: 55vh;
+  }
+
+  .card:nth-child(2) {
+    position: absolute;
+    top: 58vh;
+    left: 36vw;
+  }
+
+  .card:nth-child(3) {
+    position: absolute;
+    top: 61vh;
+    left: 68vw;
+  }
+
+  .rated:nth-child(1) {
+    position: absolute;
+    top: 20vh;
+    right: 20vw;
+  }
+
+  .rated:nth-child(2) {
+    position: absolute;
+    top: 30vh;
+    right: 15vw;
+  }
+
+  .rated:nth-child(3) {
+    position: absolute;
+    top: 40vh;
+    right: 10vw;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 5vh;
+    justify-content: center;
+    width: 100vw;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
